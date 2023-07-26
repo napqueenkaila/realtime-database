@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #012A4A;
+    background-color: #A9D6E5;
+    user-select: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 1.875em auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #012A4A;
+    text-align:center;
+    background-color: #DCE1EB;
+    border: 0;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 0.625em 0;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #FDFDFD;
+    text-align: center;
+    background-color: #2A6F97;
+    border: 0;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+button:hover {
+    background-color: #61A5C2;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 1.25rem;
+    color: #012A4A;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: .5em;
+    padding: 1em;
+    flex-grow: 1;
+    text-align: center;
+}
+
+li:hover{
+    background-color: #468FAF;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    font-size: 1rem;
+    margin-top: auto;
+    text-align: center;
+}
+
+footer a{
+    color: #012A4A;
+}
